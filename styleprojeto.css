@@ -1,0 +1,244 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+header{
+    background-color: #ba9494;
+    width: 100%;
+    padding: auto;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .fotologo{
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+  }
+
+  .fotoApresentacao{
+    display: flex;
+    gap: 240px;
+  }
+
+  .fotoApresentacao li{
+    display: inline;
+    padding: 7px;
+  }
+
+  .fotoApresentacao a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .fotoApresentacao a:hover{
+    text-decoration: underline;
+  }
+
+  .login{
+    margin-left: 17%;
+  }
+
+  .login li{
+    display:block;
+    }
+
+  .login a{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+    text-align: right;
+  }
+
+  .fotologin, .fotocarrinho{
+    width: 10%;
+    border-radius: 5px;
+  }
+
+  .login a:hover{
+    text-decoration: underline;
+    color:black;
+  }
+
+  .produtos li{
+    display: inline-block;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  }
+
+  .agendaservico{
+    color: black;
+    font-size: 18px;
+  }
+
+
+  .agendaservico:hover{
+    font-size: 20px;
+  }
+
+  .dicasenovidades{
+    padding: 25px;
+  }
+
+  .dicasenovidades a{
+    color:black;
+    font-size: 18px;
+  }
+
+  .dicasenovidades a:hover{
+    font-size: 20px;
+  }
+
+  .botaodicas{
+    width: 7%;
+    border-radius: 5px;
+  }
+
+  .botaodicas:hover{
+    background-color: #CDBED5;
+    font-size: 15px;
+  }
+
+  #contato{
+    padding: 12px;
+  }
+
+  footer{
+    font-size: 13px;
+    background-color: #CDBED5;
+    padding: 0.25%;
+    text-align: center;
+  }
+
+  .cadastro{
+    padding: 35px;
+  }
+
+  .botaocadastro{
+    width: 7%;
+    border-radius: 5px;
+  }
+
+  .botaocadastro:hover{
+    background-color: #CDBED5;
+    font-size: 15px;
+  }
+
+  .produtos{
+    padding: 40px;
+  }
+
+  .racaocachorro li{
+    display: inline-block;
+    padding: 20px;
+  }
+
+  .racaocachorro li:hover{
+    width: 15%;
+    font-size: 18px;
+  }
+
+  .racaogato li{
+    display: inline-block;
+    padding: 20px;
+  }
+
+  .racaogato li:hover{
+    width: 15%;
+    font-size: 18px;
+  }
+
+  .formagendamento{
+    padding: 95px;
+  }
+
+  .botaoagendamento{
+    width: 10%;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .botaoagendamento:hover{
+    width: 12%;
+    font-size: 16px;
+    background-color: #CDBED5;
+  }
+
+  .servicos li{
+    display: inline-block;
+    padding: 50px;
+  }
+
+  .agendar{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+  }
+
+  .agendar:hover{
+    text-decoration: underline;
+    font-size: 22px;
+    color:grey;
+  }
+
+  .loginPagina{
+    padding: 35px;
+    font-size: 18px;
+    color: black;
+  }
+
+  .loginPagina a{
+    color:black;
+  }
+
+  .loginPagina a:hover{
+    font-size: 20px;
+  }
+
+  .areacliente li{
+    display: block;
+    padding: 20px;
+  }
+
+  .areacliente form{
+    padding: 10px;
+  }
+
+  .botaoCliente{
+    width: 10%;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .botaoCliente:hover{
+    width: 12%;
+    font-size: 16px;
+    background-color: #CDBED5;
+  }
+
+  .carrinho li{
+    display: block;
+    padding: 25px;
+  }
+
+  .botaoLogin{
+    width: 10%;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .botaoLogin:hover{
+    width: 12%;
+    font-size: 16px;
+    background-color: #CDBED5;
+  }

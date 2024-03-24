@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <link rel="icon" type="image/png" sizes="16x16"  href="favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link href="styleprojeto.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+    <div class="fotoApresentacao">
+        <p><img src="cachorrosegatos.jpg" class="fotologo"></p>
+   
+        <nav>
+            <ul>
+                <li><a href="projeto.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href ="#contato" >Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="login">
+    <nav>
+        <ul>
+            <li><a href="login.html">Login <img src="login.png" alt="Login em sistema" class="fotologin"></a></li>
+            <li><a href="carrinho.html">Carrinho <img src="carrinho.png" alt="Carrinho de compras" class="fotocarrinho"></a></li>
+        </ul>
+    </nav>
+    </div>
+</header>
+
+
+    <main>
+        <div class="formagendamento">
+        <form action="https://formsubmit.co/nandi.salazar@gmail.com" method = "post">
+            <fieldset>
+                <legend>Agendamento de Serviços</legend>
+                <label>Marque uma opção: </label>
+                <select name="opcaobanhotosa">
+                    <option value="banho cachorro pequeno">Banho cachorro pequeno</option>
+                    <option value="banho e tosa cachorro pequeno">Banho e tosa cachorro pequeno</option>
+                    <option value="banho cachorro grande">Banho e tosa cachorro grande</option>
+                    <option value="banho e tosa cachorro grande">Banho e tosa cachorro grande</option>
+                    <option value="banho gato">Banho gato</option>
+                    <option value="banho e tosa gato">Banho e tosa gato</option>
+                    <option value="corte unha gato">Corte de unha de gato</option>
+                </select>
+                <label>Selecione a quantidade:</label>
+                <select name="quantidade">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4 ou mais">4 ou mais</option>
+                </select>
+                <br><br>
+                <label>Escolha uma data e horário</label>
+                <input type="datetime-local" name="agendamento">
+                <br><br>
+                <label>Tele busca: </label>
+                <label>Sim</label>
+                <input type="radio" value="sim">
+                <label>Não</label>
+                <input type="radio" value="não">
+                <br><br>
+                <input type="submit" value="Enviar" class="botaoagendamento">
+            </fieldset>
+        </form>
+        </div>
+       
+    </main>
+
+    <footer>
+        <p>&copy;Pet Shop</p>
+        <p>Desenvolvido por Fernanda R. Salazar</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <link rel="icon" type="image/png" sizes="16x16"  href="favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link href="styleprojeto.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="fotoApresentacao">
+        <p><img src="cachorrosegatos.jpg" class="fotologo"></p>
+        <nav>
+            <ul>
+                <li><a href="projeto.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href ="projeto.html/#contato" >Contato</a></li>
+            </ul>
+        </nav>
+        </div>
+
+        <div class="login">
+        <nav>
+            <ul>
+                <li><a href="login.html">Login <img src="login.png" alt="Login em sistema" class="fotologin"></a></li>
+                <li><a href="carrinho.html">Carrinho <img src="carrinho.png" alt="Carrinho de compras" class="fotocarrinho"></a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+        <form action="https://formsubmit.co/nandi.salazar@gmail.com" method = "post" class="cadastro">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label>Nome:</label>
+                <input type="text" name="nome" placeholder="Digite seu nome" id= "nome" required>
+                <label>Sexo: </label>
+                <label>Masculino</label>
+                <input type="radio" value="Masculino">
+                <label>Feminino</label>
+                <input type="radio" value="Masculino">
+                <br><br>
+                <label>Endereço: </label>
+                <input type="text" name="endereço" placeholder="Digite seu enderço" id="endereço" required>
+                <br><br>
+                <label>Telefone</label>
+                <input type="tel" name="telefone" placeholder="DDDXXXXXXXXX" id="telefone" required>
+                <label>E-mail</label>
+                <input type="email" name="email" placeholder="Digite seu e-mail">
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados do pet</legend>
+                <label>Marque uma opção: </label>
+                <input type="radio" value="Gato">
+                <label>Gato</label>
+                <input type="radio" value="Cachorro">
+                <label>Cachorro</label>
+                <br><br>
+                <label>Nome do pet:</label>
+                <input type="text" name="nome" placeholder="Digite o nome do seu pet" id="nomepet" required>
+                <br><br>
+                <label>Pelagem: </label>
+                <input type="text" name="pelagem" placeholder="Digite o tipo de pelagem do seu pet">
+                <label>Tamanho: </label>
+                <select name="tamanhopet">
+                    <option value="pequenho">Pequeno</option>
+                    <option value="grande">Grande</option>
+                </select>
+                <br><br>
+                <label>Raça: </label>
+                <input type="text" name="raça" placeholder="Digite a raça do seu pet">
+                <label>Data de nascimento? </label>
+                <input type="text" name="datanasc" placeholder="Digite a data de nascimento do seu pet">
+                <br><br>
+                <label>Sexo: </label>
+                <select name="sexo do pet">
+                    <option value="petMacho">Masculino</option>
+                    <option value="petFemea">Feminino</option>
+                </select>
+            </fieldset>
+            <br>
+            <label>Envio dos dados cadastrais: </label>
+            <input type="submit" value="Enviar" class="botaocadastro" id="botaocadastro">
+        </form>
+        <script type="text/javascript" src="script.js"></script>
+    </main>
+
+    <footer>
+        <p>&copy;Pet Shop</p>
+        <p>Desenvolvido por Fernanda R. Salazar</p>
+    </footer>
+    
+</body>
+</html>
